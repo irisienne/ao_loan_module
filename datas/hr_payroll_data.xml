@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+	<data noupdate="0">
+		<record id="hr_rule_loan" model="hr.salary.rule">
+			<field name="name">Loan</field>
+			<field name="sequence" eval="100"/>
+			<field name="code">LO</field>
+			<field name="condition_select">none</field>
+			<field name="amount_select">code</field>
+		</record>
+	</data>
+</openerp>

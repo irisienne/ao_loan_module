@@ -7,9 +7,13 @@
     'author': 'rahma',
     'description': """
     """,
-    'depends': ["base"],
-    #'data': [
-        #],
+    'depends' : ['hr', 'payroll_AgilOrg'],
+    'data': [
+        'sequences/hr_loan_sequence.xml',
+        'views/hr_loan_view.xml',
+        'views/workflow.xml',
+#        'views/board_hr_loan_statistical_view.xml',
+    ],
     'installable': True,
     'application': True,
     'auto_install': False,
